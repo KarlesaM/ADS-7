@@ -71,7 +71,6 @@ T TPQueue<T>::pop() {
   } else {
     throw std::string("Is Empty!");
   }
-}
 };
 
 struct SYM {
