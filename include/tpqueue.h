@@ -5,7 +5,7 @@
 
 template<typename T>
 class TPQueue {
-public:
+ public:
       TPQueue(): head(nullptr), tail(nullptr) {}
       void push(const T&);
       T pop();
@@ -71,7 +71,7 @@ T TPQueue<T>::pop() {
   } else {
     throw std::string("Is Empty!");
   }
-};
+}
 
 struct SYM {
   char ch;
